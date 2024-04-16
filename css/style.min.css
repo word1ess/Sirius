@@ -4509,7 +4509,7 @@ p.white {
 
 .first-slide,
 .second-slide {
-  display: none;
+  display: block;
   margin: 0 auto;
   position: relative;
   z-index: 2;
@@ -4528,7 +4528,7 @@ p.white {
 }
 
 .bg {
-  position: absolute;
+  position: fixed;
   width: 100%;
   height: 100%;
   top: 0px;
@@ -4646,7 +4646,6 @@ body {
   padding: 100px 0px 0px;
   z-index: 2;
   color: #0b0504;
-  max-height: 100vh;
   overflow: hidden;
 }
 .content.index {
