@@ -4515,6 +4515,12 @@ p.white {
   z-index: 2;
   margin-top: 160px;
 }
+.first-slide img,
+.second-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
 .first-slide.active,
 .second-slide.active {
   animation: blockTo 1s linear;
